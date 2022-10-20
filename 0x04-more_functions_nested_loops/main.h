@@ -9,3 +9,4 @@ void print_triangle(int size);
 void print_number(int n);int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
+int _putchar(char c);
