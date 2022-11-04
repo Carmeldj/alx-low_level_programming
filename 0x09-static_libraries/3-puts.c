@@ -2,12 +2,12 @@
 
 /**
  * _puts - Prints a string to stdout.
- * @str: The string to be printed.
+ * @s: The string to be printed.
  */
-void _puts(char *str)
+void _puts(char *s)
 {
-	while (*str)
-	_putchar(*str++);
+	while (*s)
+	_putchar(*s++);
 
 	_putchar('\n');
 }
